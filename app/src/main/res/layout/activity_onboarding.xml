@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="onboardingVM" type="com.dhanusrisapplication.app.modules.onboarding.data.viewmodel.OnboardingVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearOnboarding"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ImageView android:gravity="start"
+            android:id="@+id/imageFrame1443"
+            android:layout_height="@dimen/_352pxv"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_frame1443}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_frame1443"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtGoGreen"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_60pxh"
+            android:layout_marginStart="@dimen/_60pxh"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{onboardingVM.onboardingModel.txtGoGreen}"
+            style="@style/txtRubikromanmedium48" tools:text="@string/lbl_gogreen"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtLanguage"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_60pxh"
+            android:layout_marginStart="@dimen/_60pxh"
+            android:layout_marginTop="@dimen/_7pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{onboardingVM.onboardingModel.txtLanguage}"
+            style="@style/txtRubikromanregular16" tools:text="@string/msg_provides_a_grea"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnGetStarted"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_122pxh"
+            android:layout_marginStart="@dimen/_122pxh"
+            android:layout_marginTop="@dimen/_278pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:paddingBottom="@dimen/_17pxv"
+            android:paddingEnd="@dimen/_16pxh"
+            android:paddingStart="@dimen/_16pxh"
+            android:paddingTop="@dimen/_17pxv" android:singleLine="true"
+            android:text="@string/lbl_get_started"
+            android:textAllCaps="true" style="@style/btnSolidRounded" tools:text="@string/lbl_get_started"/>
+    </LinearLayout>
+</layout>

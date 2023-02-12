@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.dhanusrisapplication.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.dhanusrisapplication.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.iphone14one.ui.Iphone14OneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.androidlargeone.ui.AndroidLargeOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.iphone14two.ui.Iphone14TwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.myrooms.ui.MyRoomsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.frame1591.ui.Frame1591Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.signupone.ui.SignUpOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.androidlargetwo.ui.AndroidLargeTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.signup.ui.SignUpActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.chat.ui.ChatActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.changepassword.ui.ChangePasswordActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.profile.ui.ProfileActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.sidemenu.ui.SideMenuActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.home.ui.HomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.dashboard.ui.DashboardActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.frame1592.ui.Frame1592Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.frame1590.ui.Frame1590Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.filldetails.ui.FilldetailsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.trackorderone.ui.TrackOrderOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.profiledetails.ui.ProfileDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.dhanusrisapplication.app.modules.onboarding.ui.OnboardingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.recoverpassword.ui.RecoverPasswordActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dhanusrisapplication.app.modules.verifycode.ui.VerifyCodeActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

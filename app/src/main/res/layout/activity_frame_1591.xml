@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="frame1591VM" type="com.dhanusrisapplication.app.modules.frame1591.data.viewmodel.Frame1591VM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnlanguage"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtLanguage"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_76pxh"
+            android:layout_marginStart="@dimen/_76pxh"
+            android:layout_marginTop="@dimen/_39pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{frame1591VM.frame1591Model.txtLanguage}"
+            style="@style/txtIntermedium24" tools:text="@string/msg_soil_moisture_l"/>
+        <ImageView android:gravity="start"
+            android:id="@+id/imageImageNineteen"
+            android:layout_height="@dimen/_257pxv"
+            android:layout_marginTop="@dimen/_8pxv"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_image19}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_image19"/>
+        <ImageView android:id="@+id/imageImageTwenty"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_145pxh"
+            android:layout_marginEnd="@dimen/_76pxh"
+            android:layout_marginStart="@dimen/_76pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="@dimen/_142pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_image20}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_image20"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtLanguageOne"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_74pxh"
+            android:layout_marginStart="@dimen/_76pxh"
+            android:layout_marginTop="@dimen/_38pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:text="@{frame1591VM.frame1591Model.txtLanguageOne}"
+            android:textAllCaps="true"
+            style="@style/txtRubikromanmedium14" tools:text="@string/msg_current_status"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnDone"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_76pxh"
+            android:layout_marginStart="@dimen/_76pxh"
+            android:layout_marginTop="@dimen/_69pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:paddingBottom="@dimen/_17pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_17pxv" android:singleLine="true"
+            android:text="@string/lbl_done" android:textAllCaps="true"
+            style="@style/btnSolidRounded" tools:text="@string/lbl_done"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtLanguageTwo"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_76pxh"
+            android:layout_marginStart="@dimen/_76pxh"
+            android:layout_marginTop="@dimen/_91pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{frame1591VM.frame1591Model.txtLanguageTwo}"
+            style="@style/txtIntermedium24_1" tools:text="@string/lbl_back2"/>
+    </LinearLayout>
+</layout>

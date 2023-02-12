@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="trackOrderOneVM" type="com.dhanusrisapplication.app.modules.trackorderone.data.viewmodel.TrackOrderOneVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackrectangletwentyone"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <FrameLayout android:id="@+id/frame12TrackOrder"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+            <View android:background="@color/indigo_901"
+                android:id="@+id/viewRectangleTwentyOne"
+                android:layout_gravity="top|center"
+                android:layout_height="@dimen/_812pxh"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_10pxh" android:layout_width="@dimen/_375pxh"/>
+            <FrameLayout android:id="@+id/frameStackmenu"
+                android:layout_gravity="start"
+                android:layout_height="match_parent" android:layout_width="match_parent">
+                <ImageView android:id="@+id/imageSnazzyimageTwo"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_844pxv"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_snazzyimage2}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_snazzyimage2"/>
+                <LinearLayout android:id="@+id/linearColumnmenu"
+                    android:layout_gravity="top|center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_40pxv"
+                    android:layout_marginEnd="@dimen/_25pxh"
+                    android:layout_marginStart="@dimen/_25pxh"
+                    android:layout_marginTop="@dimen/_40pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <ImageButton
+                        android:background="@drawable/rectangle_bg_white_a700_border_blue_50_radius_14"
+                        android:id="@+id/btnMenu"
+                        android:layout_height="@dimen/_60pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="@dimen/_62pxh"
+                        android:paddingHorizontal="@dimen/_21pxh"
+                        android:paddingVertical="@dimen/_21pxv"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_menu" tools:ignore="ContentDescription"/>
+                    <ImageView android:id="@+id/imageGoogle"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_30pxh"
+                        android:layout_marginEnd="@dimen/_147pxh"
+                        android:layout_marginStart="@dimen/_148pxh"
+                        android:layout_marginTop="@dimen/_291pxv"
+                        android:layout_width="@dimen/_30pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_google_30x30"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_google_30x30"/>
+                    <ImageView android:id="@+id/imageGroupFortyTwo"
+                        android:layout_gravity="end"
+                        android:layout_height="@dimen/_52pxh"
+                        android:layout_marginEnd="@dimen/_9pxh"
+                        android:layout_marginStart="@dimen/_274pxh"
+                        android:layout_marginTop="@dimen/_171pxv"
+                        android:layout_width="@dimen/_41pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_group42"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_group42"/>
+                    <LinearLayout android:id="@+id/linearRowtextfield"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_57pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <FrameLayout android:id="@+id/frameMobileNumber"
+                            android:layout_height="@dimen/_76pxv" android:layout_width="@dimen/_181pxh">
+                            <View
+                                android:background="@color/indigo_900_4c"
+                                android:id="@+id/viewTextField"
+                                android:layout_gravity="bottom|center"
+                                android:layout_height="@dimen/_46pxv"
+                                android:layout_marginEnd="@dimen/_27pxh"
+                                android:layout_marginStart="@dimen/_27pxh"
+                                android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_126pxh"/>
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:id="@+id/btnLocateYourFarmOne"
+                                android:layout_gravity="top|start"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:layout_width="match_parent"
+                                android:paddingBottom="@dimen/_20pxv"
+                                android:paddingEnd="@dimen/_20pxh"
+                                android:paddingStart="@dimen/_19pxh"
+                                android:paddingTop="@dimen/_20pxv"
+                                android:singleLine="true"
+                                android:text="@string/msg_locate_your_fa"
+                                android:textAllCaps="false"
+                                style="@style/btnSolidRounded_1" tools:text="@string/msg_locate_your_fa"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStacklocation"
+                            android:layout_height="@dimen/_76pxv"
+                            android:layout_marginStart="@dimen/_10pxh" android:layout_width="@dimen/_62pxh">
+                            <ImageView android:id="@+id/imageLocation"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_76pxh"
+                                android:layout_width="@dimen/_62pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_location"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_location"/>
+                            <ImageView android:id="@+id/imageCall"
+                                android:layout_gravity="top|center"
+                                android:layout_height="@dimen/_20pxh"
+                                android:layout_marginBottom="@dimen/_21pxv"
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:layout_marginStart="@dimen/_20pxh"
+                                android:layout_marginTop="@dimen/_21pxv"
+                                android:layout_width="@dimen/_20pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_call"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_call"/>
+                        </FrameLayout>
+                        <ImageView android:id="@+id/imageVolume"
+                            android:layout_height="@dimen/_76pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_width="@dimen/_62pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_volume"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_volume"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+</layout>

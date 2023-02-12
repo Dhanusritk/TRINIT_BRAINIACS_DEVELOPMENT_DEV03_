@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">dhanu_sri_s_application6</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_posted_wednesda">Posted wednesday</string>
+<string name="msg_gokul_mathi_1d">Gokul_Mathi  1d ago</string>
+<string name="msg_helper_text_her">Helper text here</string>
+<string name="lbl_l">L</string>
+<string name="lbl_back">Back</string>
+<string name="lbl_logout">Logout</string>
+<string name="lbl_10_feb">10 Feb
+
+
+                 </string>
+<string name="msg_don_t_have_an_a">Don\u2019t have an account? Sign up</string>
+<string name="msg_confirm_passwor">Confirm Password</string>
+<string name="msg_provides_a_grea">Provides a great assistance for  you!</string>
+<string name="msg_bambusa_is_a_ge">Bambusa is a genus of large, clumping bamboo plants native to Asia and parts of Africa. There are over 100 different species of Bambusa..</string>
+<string name="lbl_community_forum2">Community Forum</string>
+<string name="lbl_sign_in">Sign In</string>
+<string name="lbl_samuel">Samuel</string>
+<string name="msg_back_to_home_pa">Back to home page</string>
+<string name="msg_locate_your_fa">Locate  your farm</string>
+<string name="lbl_tamil">Tamil</string>
+<string name="lbl_community_forum">COMMUNITY FORUM</string>
+<string name="msg_your_plant_suff">Your Plant suffering 
+from insufficient of
+water - help HIM!!!!!</string>
+<string name="lbl_malayalam">Malayalam</string>
+<string name="lbl_11_40">11:40</string>
+<string name="lbl_11_43">11:43</string>
+<string name="lbl_1d_ago">1d ago</string>
+<string name="msg_forgot_password">Forgot password?? </string>
+<string name="msg_it_i">&#128561;&#128561;&#128561;&#128561;&#128561; it is too worse..</string>
+<string name="lbl_or_signup">                                      oR SIGNUP?                  </string>
+<string name="msg_my_plant_has_so">My plant has some issues</string>
+<string name="lbl_profile_details">Profile details</string>
+<string name="lbl_user00062">User0006:</string>
+<string name="lbl_hindi">Hindi</string>
+<string name="lbl_bruno">Bruno</string>
+<string name="msg_track_your_stat">Track your Status</string>
+<string name="lbl_posted_monday">Posted Monday</string>
+<string name="msg_sign_in_with_go">Sign In with Google</string>
+<string name="lbl_your_location">Your location</string>
+<string name="lbl_farmer">Farmer</string>
+<string name="msg_current_status">         current status:
+
+soil is too dry - Time to water</string>
+<string name="msg_current_yielded">Current yielded crops</string>
+<string name="msg_harinisri_k_th">Harinisri_k: This a little yellowish bud rose plant and I just want to plant all kinda roses in my garden</string>
+<string name="lbl_see_replies">See Replies</string>
+<string name="lbl_soil_type">Soil type</string>
+<string name="lbl_cloudy">Cloudy</string>
+<string name="lbl_support">Support</string>
+<string name="lbl_subimt">Subimt</string>
+<string name="lbl_feb_27">Feb 27</string>
+<string name="lbl_gokul_mathi">Gokul_Mathi  </string>
+<string name="lbl_white_theme">White theme</string>
+<string name="msg_kindly_fill_the">Kindly fill the details</string>
+<string name="msg_govt_announceme">GOVT ANNOUNCEMENTS</string>
+<string name="msg_don_t_have_an_a2">Don\u2019t have an account? </string>
+<string name="lbl_user0006">User0006</string>
+<string name="lbl_2_bambusa">2.Bambusa</string>
+<string name="lbl_125">125</string>
+<string name="msg_upcoming_tasks">Upcoming tasks
+
+           Progress update</string>
+<string name="lbl_ruben">Ruben</string>
+<string name="lbl_home_gardener">HOME GARDENER</string>
+<string name="msg_your_email_addr">Your email address cannot be changed</string>
+<string name="lbl_create_password">Create Password</string>
+<string name="msg_forgot_password2">Forgot password??</string>
+<string name="msg_plant_tracking">                                Plant tracking system</string>
+<string name="msg_forgot_your_pas">Forgot your password? Don\u2019t worry, enter your email to reset your current password.</string>
+<string name="lbl_4_device">4 Device</string>
+<string name="lbl_type_you_reply">Type you reply</string>
+<string name="msg_how_to_grow_cac">How to grow cactus at home</string>
+<string name="lbl_gogreen">GoGreen</string>
+<string name="lbl_thanh_pham">Thanh Pham</string>
+<string name="lbl_anguage">anguage:
+</string>
+<string name="lbl_harinisri_k">Harinisri_k</string>
+<string name="msg_farmer_ruben_ge">                                           Farmer Ruben Geidt</string>
+<string name="lbl_smart_light">Smart Light</string>
+<string name="lbl_verify_code">Verify Code</string>
+<string name="lbl_password">Password</string>
+<string name="lbl_soil_moisture">Soil
+ moisture  </string>
+<string name="msg_my_aloe_vera_is">My aloe-vera is dying. Someone please tell me how to revive it</string>
+<string name="lbl_language">Language:
+</string>
+<string name="msg_ruben_geidt_exa">ruben.geidt@example.com</string>
+<string name="lbl_geidt">Geidt</string>
+<string name="msg_smart_remainder">    Smart remainders</string>
+<string name="msg_today_s_tasks2">Today\u2019s tasks
+
+           water
+           </string>
+<string name="lbl_my_profile">My Profile</string>
+<string name="lbl_fans">Fans</string>
+<string name="msg_sign_up_with_ap">Sign Up with Apple</string>
+<string name="lbl_telugu">Telugu</string>
+<string name="lbl_3h_ago">3h ago</string>
+<string name="msg_encourage_natur">Encourage natural predators like birds etc..</string>
+<string name="lbl_3_cactus">3.Cactus</string>
+<string name="msg_agriculture_and">Agriculture and Farmers Welfare department
+Year : 2022</string>
+<string name="lbl_back2">         Back</string>
+<string name="lbl_20">20</string>
+<string name="msg_23_december_19">23 December, 1992</string>
+<string name="msg_my_aloe_vera_is3">My aloe vera is dying someone please tell me how to revive it
+
+</string>
+<string name="msg_today_s_tasks">Today\u2019s tasks
+
+           water
+           10 Feb
+
+
+                 Misted
+                 Today</string>
+<string name="msg_my_aloe_vera_is2">My aloe vera is dying someone please tell me how to revive it
+
+Reply                               See replies</string>
+<string name="msg_soil_moisture_l">        Soil moisture level</string>
+<string name="lbl_english">English</string>
+<string name="msg_by_selecting_cr2">By selecting Create Account below, I agree to </string>
+<string name="msg_looks_like_you">Looks like you don\u2019t have an account. Let\u2019s create a new account for you.</string>
+<string name="lbl_trending">Trending</string>
+<string name="lbl_message">Message</string>
+<string name="msg_a_cactus_is_a_m">A cactus is a member of the plant family Cactaceae, a family comprising about 127 genera with some 1750 known species of the order Caryophyllales.</string>
+<string name="msg_fill_in_detail">Fill IN  details</string>
+<string name="lbl_weather">Weather</string>
+<string name="lbl_gowrishuba_k">gowrishuba_k</string>
+<string name="lbl_create_account">Create Account</string>
+<string name="lbl_change_password">Change Password</string>
+<string name="lbl_misted">Misted
+</string>
+<string name="lbl_today">                 Today</string>
+<string name="msg_at_least_8_char">At least 8 characters</string>
+<string name="lbl_verify">verify</string>
+<string name="lbl_follow">+Follow</string>
+<string name="msg_create_a_new_s">Create a new, strong password that you don\u2019t use before</string>
+<string name="lbl_black_theme">Black theme</string>
+<string name="lbl_1_arum_lily">1.Arum Lily</string>
+<string name="msg_site_size_in_s">Site size (in square feet)</string>
+<string name="lbl_contact_us">Contact Us</string>
+<string name="msg_i_am_growing_dr">I am growing Drum sticks in my lawn and today I started seeing caterpillars. What should I do now?</string>
+<string name="lbl_who_are_you">WHO ARE YOU?</string>
+<string name="lbl_dharshu_alagar">dharshu_alagar</string>
+<string name="lbl_get_started">GET STARTED</string>
+<string name="lbl_sign_up">Sign up</string>
+<string name="msg_loan_cancellati">Loan cancellation for all the agriculture loans</string>
+<string name="lbl_name">Name</string>
+<string name="lbl_dhanusri_tk">dhanusri_tk</string>
+<string name="lbl_mr_anonymous">Mr_Anonymous  </string>
+<string name="lbl_profile">Profile</string>
+<string name="lbl_privacy_policy">Privacy Policy</string>
+<string name="msg_plant_dictionar">PLANT DICTIONARY</string>
+<string name="lbl_read_more">Read more&gt;&gt;</string>
+<string name="msg_sign_up_with_go">Sign Up with Google</string>
+<string name="lbl"> &amp; </string>
+<string name="msg_this_a_little_y"> This a little yellowish bud rose plant and I just want to plant all kinda roses in my garden</string>
+<string name="lbl_done">Done</string>
+<string name="msg_mr_anonymous_3">Mr_Anonymous  3h ago</string>
+<string name="lbl_1_hour_ago">1 hour ago</string>
+<string name="lbl_email">Email</string>
+<string name="msg_post_your_doubt">Post your doubts here</string>
+<string name="lbl_harinisri_k2">Harinisri_k:</string>
+<string name="lbl_search">Search </string>
+<string name="msg_by_selecting_cr">By selecting Create Account below, I agree to Terms of Service &amp; Privacy Policy</string>
+<string name="lbl_log_out2">Log Out</string>
+<string name="lbl_tamilnadu">Tamilnadu</string>
+<string name="lbl_bihar">Bihar</string>
+<string name="msg_arum_lily_zant">Arum lily (Zantedeschia aethiopica) is a flowering plant native to southern Africa. It is also known as the common arum, white arum lily, or trumpet lily.</string>
+<string name="msg_reply">Reply                               See replies</string>
+<string name="lbl_helps_faqs">Helps &amp; FAQs</string>
+<string name="lbl_login">Login</string>
+<string name="lbl_2_device">2 Device</string>
+<string name="lbl_dry">Dry</string>
+<string name="msg_farming_agreeme">FARMING AGREEMENT</string>
+<string name="lbl_popular">Popular</string>
+<string name="msg_can_anybody_sug">Can anybody suggest some advanced technology for supplying pesticides at low cost??</string>
+<string name="msg_an_authenticati">An authentication code has been sent to your email</string>
+<string name="msg_send_me_some_pi">Send me some pictures</string>
+<string name="lbl_theme">Theme:</string>
+<string name="msg_try_mixing_some">Try mixing some neem oil with water and spray on the leaves</string>
+<string name="lbl_following">Following</string>
+<string name="msg_farionwick_gmai">farionwick@gmail.com</string>
+<string name="lbl_reply">Reply</string>
+<string name="msg_terms_of_servic">Terms of Service</string>
+<string name="msg_i_have_planted"> I have planted a curry leaves plant in my home garden.Now it is 2 months baby.</string>
+<string name="lbl_settings">Settings</string>
+<string name="lbl_or">Or</string>
+<string name="msg_sign_in_with_ap">Sign In with Apple</string>
+<string name="lbl_karnataka">Karnataka</string>
+<string name="msg_user0006_i_hav">User0006: I have planted a curry leaves plant in my home garden.Now it is 2 months baby.</string>
+<string name="msg_smart_remainder2">Smart remainders</string>
+<string name="lbl_08_15">08:15</string>
+<string name="msg_recover_passwor">Recover Password</string>
+<string name="msg_please_enter_valid_email">Please enter valid email</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_text">Please enter valid text</string>
+</resources>

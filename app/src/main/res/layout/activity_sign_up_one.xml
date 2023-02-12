@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="signUpOneVM" type="com.dhanusrisapplication.app.modules.signupone.data.viewmodel.SignUpOneVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearSignupOne"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_32pxv"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:id="@+id/linearRowcreatefromfra"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameStackcreatefromfra"
+                    android:layout_height="@dimen/_40pxv"
+                    android:layout_width="@dimen/_46pxh" style="@style/groupStyleteal_A400cornerRadius">
+                    <View
+                        android:background="@drawable/rectangle_bg_teal_a400_radius_9_28"
+                        android:id="@+id/viewCreatefromfra"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_40pxh"
+                        android:layout_marginEnd="@dimen/_10pxh" android:layout_width="@dimen/_40pxh"/>
+                    <ImageView android:id="@+id/imageWeeding"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_40pxh"
+                        android:layout_width="@dimen/_46pxh"
+                        android:scaleType="fitXY"
+                        cornerRadius="@{@dimen/_9pxh}"
+                        imageRes="@{@drawable/img_weeding}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_weeding"/>
+                </FrameLayout>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtGoGreen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginStart="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_weight="0.76"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{signUpOneVM.signUpOneModel.txtGoGreen}"
+                    style="@style/txtRubikromanmedium34" tools:text="@string/lbl_gogreen"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <TextView android:ellipsize="end" android:id="@+id/txtSignup"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_34pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{signUpOneVM.signUpOneModel.txtSignup}"
+            android:textAllCaps="true"
+            style="@style/txtRubikromanmedium20" tools:text="@string/lbl_sign_up"/>
+        <TextView android:id="@+id/txtConfirmation"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_13pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_4pxh"
+            android:text="@{signUpOneVM.signUpOneModel.txtConfirmation}"
+            style="@style/txtRubikromanregular14" tools:text="@string/msg_looks_like_you"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtWHOAREYOU"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_15pxv"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            android:singleLine="true"
+            android:text="@{signUpOneVM.signUpOneModel.txtWHOAREYOU}"
+            style="@style/txtRubikromanbold14" tools:text="@string/lbl_who_are_you"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnFarmer"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_25pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:paddingBottom="@dimen/_17pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_17pxv" android:singleLine="true"
+            android:text="@string/lbl_farmer" android:textAllCaps="true"
+            style="@style/btnSolidRounded" tools:text="@string/lbl_farmer"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearRowlinefour"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_25pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <View android:background="@color/gray_200"
+                android:id="@+id/lineLineFour"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_5pxv"
+                android:layout_marginTop="@dimen/_7pxv"
+                android:layout_weight="0.47" android:layout_width="0dp"/>
+            <TextView android:ellipsize="end" android:id="@+id/txtOr"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_weight="0.06" android:layout_width="0dp"
+                android:letterSpacing="0.01" android:singleLine="true"
+                android:text="@{signUpOneVM.signUpOneModel.txtOr}"
+                android:textAllCaps="true"
+                style="@style/txtRubikromanregular14_3" tools:text="@string/lbl_or"/>
+            <View android:background="@color/gray_200"
+                android:id="@+id/lineLineThree"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_5pxv"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_7pxv"
+                android:layout_weight="0.47" android:layout_width="0dp"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnHomeGardener"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_51pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:paddingBottom="@dimen/_17pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_17pxv" android:singleLine="true"
+            android:text="@string/lbl_home_gardener"
+            android:textAllCaps="true" style="@style/btnSolidRounded" tools:text="@string/lbl_home_gardener"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="dashboardVM" type="com.dhanusrisapplication.app.modules.dashboard.data.viewmodel.DashboardVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearDashboard"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnsettings"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_18pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:id="@+id/linearRowsettings"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtSettings"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_weight="0.78"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{dashboardVM.dashboardModel.txtSettings}"
+                        style="@style/txtIntersemibold24" tools:text="@string/lbl_settings"/>
+                    <ImageView android:id="@+id/imagePlus"
+                        android:layout_height="@dimen/_26pxh"
+                        android:layout_marginStart="@dimen/_232pxh"
+                        android:layout_width="@dimen/_26pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_plus"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_plus"/>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <TextView android:ellipsize="end" android:id="@+id/txtTheme"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_2pxh"
+                android:layout_marginTop="@dimen/_38pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{dashboardVM.dashboardModel.txtTheme}"
+                style="@style/txtIntermedium24" tools:text="@string/lbl_theme"/>
+            <LinearLayout android:gravity="end"
+                android:id="@+id/linearRowwhiteTheme"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_14pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnWhiteTheme"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.52"
+                    android:layout_width="0dp"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_28pxh"
+                    android:paddingStart="@dimen/_23pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_white_theme"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_3" tools:text="@string/lbl_white_theme"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnBlackTheme"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_marginStart="@dimen/_32pxh"
+                    android:layout_width="@dimen/_128pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_22pxh"
+                    android:paddingStart="@dimen/_22pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_black_theme"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_4" tools:text="@string/lbl_black_theme"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/black_900"
+            android:id="@+id/lineLineFive"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginTop="@dimen/_25pxv" android:layout_width="@dimen/_390pxh"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnlanguage"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_30pxh"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_marginTop="@dimen/_49pxv"
+            android:layout_width="wrap_content" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtLanguage"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{dashboardVM.dashboardModel.txtLanguage}"
+                style="@style/txtIntermedium32" tools:text="@string/lbl_language"/>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowtamil"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_25pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageImageTwo"
+                    android:layout_height="@dimen/_23pxh"
+                    android:layout_width="@dimen/_25pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_image2"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image2"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtTamil"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginStart="@dimen/_22pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_weight="0.67"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{dashboardVM.dashboardModel.txtTamil}"
+                    style="@style/txtInterregular20_1" tools:text="@string/lbl_tamil"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowlanguageOne"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageImageThree"
+                    android:layout_height="@dimen/_25pxh"
+                    android:layout_width="@dimen/_25pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_image3"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image3"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLanguageOne"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_weight="0.73"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{dashboardVM.dashboardModel.txtLanguageOne}"
+                    style="@style/txtInterregular20_1" tools:text="@string/lbl_english"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowmalayalam"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageImageFour"
+                    android:layout_height="@dimen/_25pxh"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_width="@dimen/_25pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_image3"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image3"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtMalayalam"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_22pxh"
+                    android:layout_marginTop="@dimen/_7pxv"
+                    android:layout_weight="0.8"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{dashboardVM.dashboardModel.txtMalayalam}"
+                    style="@style/txtInterregular20_1" tools:text="@string/lbl_malayalam"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowlanguageTwo"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_13pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageImageFive"
+                    android:layout_height="@dimen/_25pxh"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_width="@dimen/_25pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_image3"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image3"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLanguageTwo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_marginTop="@dimen/_7pxv"
+                    android:layout_weight="0.66"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{dashboardVM.dashboardModel.txtLanguageTwo}"
+                    style="@style/txtInterregular20_1" tools:text="@string/lbl_hindi"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowtelugu"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_13pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageImageSix"
+                    android:layout_height="@dimen/_25pxh"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_width="@dimen/_25pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_image3"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image3"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtTelugu"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_22pxh"
+                    android:layout_marginTop="@dimen/_5pxv"
+                    android:layout_weight="0.72"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{dashboardVM.dashboardModel.txtTelugu}"
+                    style="@style/txtInterregular20_1" tools:text="@string/lbl_telugu"/>
+            </LinearLayout>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtLanguageThree"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_193pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{dashboardVM.dashboardModel.txtLanguageThree}"
+                style="@style/txtIntermedium24_1" tools:text="@string/lbl_back2"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
